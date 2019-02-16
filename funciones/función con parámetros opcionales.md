@@ -33,7 +33,8 @@ val precioFinal = calculateDonutCost("Glazed Donut", 5, Some("Descuentazo"))
 ### Cómo asignar un valor predeterminado a un parámetro opción
 
 ```scala
-def calculateDonutCostWithDefaultOptionValue(donutName: String, quantity: Int, couponCode: Option[String] = None): Double = {
+def calculateDonutCostWithDefaultOptionValue(donutName: String, quantity: Int, 
+                                             couponCode: Option[String] = None): Double = {
   println(s"Calculating cost for $donutName, quantity = $quantity")
 
   couponCode match{
