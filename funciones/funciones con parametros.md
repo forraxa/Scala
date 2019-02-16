@@ -1,10 +1,10 @@
-## Funciones
+## Funciones con parámetros
 
 Indice:  
-- [Función con parámetros]  
-- [Función con opción de tipo de retorno]  
-- [Función con parametro implícito]  
-- [Función implícita]  
+- [Como definir una función con parámetros](#Como-definir-una-función-con-parámetros)  
+- [Como llamar a una función con parámetros](#Como-llamar-a-una-función-con-parámetros)  
+- [Como agregar valores por defecto a los parámetros](#Como-agregar-valores-por-defecto-a-los-parámetros)    
+- [Como llamar a una función con parámetros por defecto](#Como-llamar-a-una-función-con-parámetros-por-defecto)  
 
 
-### Función con parámetros  
+### Como definir una función con parámetros
