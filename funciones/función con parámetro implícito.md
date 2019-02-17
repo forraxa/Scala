@@ -24,7 +24,7 @@ def totalCost(donutType: String, quantity: Int)(implicit discount: Double): Doub
 
 ### declarar valor implícito
 ```scala
-mplicit val discount: Double = 0.1
+implicit val discount: Double = 0.1
 println(s"All customer will receive a ${discount * 100}% discount")
 ```
 
