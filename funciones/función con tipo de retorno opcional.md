@@ -5,9 +5,13 @@ Posteriormente se presentan 3 formas diferentes de llamar a una función con par
 Por último se mejora la función del ejercicio anterior con la nueva función para buscar si existe un cupón.
 
 Indice:  
-[Función que devuelve un option String](#Función-que-devuelve-un-option-String)
+[función que devuelve un option String](#función-que-devuelve-un-option-String)
+[llamada a función con option usando getOrElse](#llamada-a-función-con-option-usando-getOrElse)
+[llamada-a-función-con-option-usando-pattern-matching](#llamada-a-función-con-option-usando-pattern-matching)
+[llamada a función con option usando map](#llamada-a-función-con-option-usando-map)
+[revisión función ejercicio anterior](#revisión-función-ejercicio-anterior)
 
-### Función que devuelve un option String
+### función que devuelve un option String
 //esta función devolverá el cupón asignado a ese cliente filtrando los demás valores vacios.  
 
 ```scala
