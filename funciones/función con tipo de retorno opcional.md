@@ -7,7 +7,7 @@ Por último se mejora la función del ejercicio anterior con la nueva función p
 Indice:  
 [función que devuelve un option String](#función-que-devuelve-un-option-String)  
 [llamada a función con option usando getOrElse](#llamada-a-función-con-option-usando-getOrElse)  
-[llamada-a-función-con-option-usando-pattern-matching](#llamada-a-función-con-option-usando-pattern-matching)  
+[llamada a función con option usando pattern matching](#llamada-a-función-con-option-usando-pattern-matching)  
 [llamada a función con option usando map](#llamada-a-función-con-option-usando-map)  
 [revisión función ejercicio anterior](#revisión-función-ejercicio-anterior)  
 
