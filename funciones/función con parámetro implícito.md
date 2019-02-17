@@ -38,7 +38,7 @@ println(s"""Total cost with discount of 5 Glazed Donuts = ${totalCost("Glazed Do
 ### como definir una funcin con varios parametros implícitos  
 Simplemente se separan por comas.
 ```scala
-def totalCost2(donutType: String, quantity: Int)(implicit discount: Double, storeName: String): Double = {
+def totalCost2(donutType: String, quantity: Int)(implicit discount: Double, storeName: String):Double = {
   println(s"[$storeName] Calculating the price for $quantity $donutType")
   val totalCost = 2.50 * quantity * (1 - discount)
   totalCost
@@ -47,5 +47,6 @@ def totalCost2(donutType: String, quantity: Int)(implicit discount: Double, stor
 
 ### cómo pasar manualmente los parámetros implícitos
 ```scala
-println(s"""Total cost with discount of 5 Glazed Donuts, manually passed-through = ${totalCost2("Glazed Donut", 5)(0.1, "Scala Donut Store")}""")
+println(s"""Total cost with discount of 5 Glazed Donuts, manually passed-through = 
+         ${totalCost2("Glazed Donut", 5)(0.1, "Scala Donut Store")}""")
 ```
