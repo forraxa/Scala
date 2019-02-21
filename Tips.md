@@ -7,8 +7,8 @@
 
 **Clase implícita**: Útil para declarar conversiones implícitas entre clases.  
 
-A <: B  A hereda de B  
-B >: B  B del que hereda A  
+**A <: B**  A hereda de B  
+**B >: B**  B del que hereda A  
 
 **Objeto Singleton**:  
 - Es como un **contenedor** para métodos  
